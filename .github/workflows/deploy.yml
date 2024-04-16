@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   workflow_dispatch:
-    push:
+  push:
 
 jobs:
   deploy:
