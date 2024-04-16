@@ -2,8 +2,11 @@ name: Deploy to GitHub Pages
 
 on:
   workflow_dispatch:
+    push:
 
 jobs:
   deploy:
     uses: alvarogarciapiz/workflows/.github/workflows/react-pages.yml@main
+    with:
+      BUILD_FOLDER: './dist'
     secrets: inherit
