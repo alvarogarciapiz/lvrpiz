@@ -6,3 +6,4 @@ on:
 jobs:
   deploy:
     uses: alvarogarciapiz/workflows/.github/workflows/react-pages.yml@main
+    secrets: inherit
