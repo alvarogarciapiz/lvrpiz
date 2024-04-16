@@ -1,0 +1,8 @@
+name: Deploy to GitHub Pages
+
+on:
+  workflow-dispatch:
+
+jobs:
+  deploy:
+    uses: alvarogarciapiz/workflows/.github/workflows/react-pages.yml@main
