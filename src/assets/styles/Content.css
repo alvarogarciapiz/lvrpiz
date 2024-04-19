@@ -1,8 +1,8 @@
 .Content {
-    width: auto;
-    height: 65vh;
-    margin-left: 31vw;
-    margin-right: 31vw;
+    width: 38vw;
+    height: 70vh;
+    padding-left: 31vw;
+    padding-right: 31vw;
 }
 
 .Content p{
@@ -73,7 +73,10 @@
 
 @media only screen and (max-width: 600px) {
     .Content {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 5vw;
+        width: 80vw;
+        height: auto;
+        padding-left: 0vw;
+        padding-right: 0vw;
     }
   }
