@@ -1,16 +1,15 @@
 .location {
     color: rgb(176, 180, 186);
 }
-
+footer {
+    width: 100%;
+    height: auto;
+}
 .footer-container {
+    position: relative;
     display: flex;
     align-items: center;
-    position: fixed;
-    bottom: 0;
-    left: 1%;
-    width: 100%;
     padding: 10px;
-    box-sizing: border-box;
 }
 
 .circle-container {
