@@ -34,3 +34,13 @@
     color: rgb(176, 180, 186);
     margin-right: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .Header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 6vw;
+        margin-bottom: 6vh;
+    }
+}
