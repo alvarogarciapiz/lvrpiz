@@ -22,6 +22,7 @@ const Content = () => {
             <div className='projectsSpace'>
                 <h2>Projects</h2>
                 <div className='projects'>
+                    <a className='project' href='https://www.commandshow.lvrpiz.com'>The Command</a>
                     <a className='project' href='https://alvarogarciapiz.github.io/AWS-Certify-Hub/'>AWS Certify Hub</a>
                     <a className='project' href='https://github.com/alvarogarciapiz/IntelliTweet'>IntelliTweet</a>
                     <a className='project' href='https://github.com/alvarogarciapiz/GRIPweb'>GRIP Clothing Store</a>
