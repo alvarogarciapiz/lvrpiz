@@ -1,5 +1,7 @@
 import React from 'react';
 import './assets/styles/Content.css';
+import githubFoundationsBadge from './assets/images/github-foundations-badge.png';
+import githubActionsBadge from './assets/images/github-actions-badge.png';
 
 const Content = () => {
 
@@ -10,13 +12,24 @@ const Content = () => {
             </div>
 
             <div className='contact'>
-            <a href="mailto:alvaro@lvrpiz.com">alvaro@lvrpiz.com</a> <a href="https://twitter.com/lvrpiz">@lvrpiz</a>
+            <a href="mailto:alvaro@lvrpiz.com">alvaro@lvrpiz.com</a> <a href="https://www.linkedin.com/in/alvarogarciapiz">@alvarogarciapiz</a>
             </div>
 
             <div className='description'>
-            <p>Currently working as Cloud & Devops Engineer at Santander Consumer Finance Global Services. Previously software developer intern at Altia. Make sure to check out my projects and let me know on 𝕏 what do you think about them!</p>
-            <p>Passionate about sport, techonology & innovation.</p>
-            <p>I hold a bachelor's degree in Economics, where I developed a strong foundation in economic principles and analysis. However, driven by my passion for technology and innovation, I transitioned to pursue a bachelor's degree in Computer Science, where I excelled as the top student in my cohort. Currently, I am furthering my expertise in the field by pursuing a master's degree in Computer Science, focusing on advanced topics and research to contribute meaningfully to the ever-evolving technological landscape.</p>
+            <p>Passionate about sport, techonology & innovation. Currently working as Cloud, DevOps, Automation & Systems Infrastructure at Santander. Previously software developer intern at Altia.</p>
+            <p>I initially earned a bachelor’s degree in Economics, gaining a solid foundation in economic principles and analysis. However, my passion for technology and innovation led me to switch fields and pursue a bachelor’s degree in Computer Science, where I excelled as the top student in my cohort. Currently, I am deepening my expertise by pursuing a master’s degree in Computer Science, focusing on advanced topics and research to make meaningful contributions to the ever-evolving technological landscape.</p>
+            </div>
+
+            <div className='projectsSpace'>
+                <h2>Certifications</h2>
+                <div className='projects'>
+                <a href="https://www.credly.com/badges/f180210d-c933-4ad0-b807-5b1b96bb250e/linked_in_profile" target="_blank" rel="noopener noreferrer">
+                    <img src={githubFoundationsBadge} alt='GitHub Foundations Badge' className='badge' />
+                </a>
+                <a href="https://www.linkedin.com/in/alvarogarciapiz" target="_blank" rel="noopener noreferrer">
+                    <img src={githubActionsBadge} alt='GitHub Actions Badge' className='badge' />
+                </a>
+                </div>
             </div>
 
             <div className='projectsSpace'>
@@ -26,11 +39,12 @@ const Content = () => {
                     <a className='project' href='https://alvarogarciapiz.github.io/AWS-Certify-Hub/'>AWS Certify Hub</a>
                     <a className='project' href='https://github.com/alvarogarciapiz/IntelliTweet'>IntelliTweet</a>
                     <a className='project' href='https://github.com/alvarogarciapiz/GRIPweb'>GRIP Clothing Store</a>
-                    <a className='project' href='https://www.commandshow.lvrpiz.com'>The Command</a>
                     <a className='project' href='https://alvarogarciapiz.github.io/GeniusKeys/'>GeniusKeys</a>
                     <a className='project' href='https://github.com/alvarogarciapiz/MoodWise'>MoodWise</a>
                 </div>
             </div>
+
+            
         </div>
     );
 };
