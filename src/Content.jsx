@@ -12,7 +12,7 @@ const Content = () => {
             </div>
 
             <div className='contact'>
-            <a href="mailto:alvaro@lvrpiz.com">alvaro@lvrpiz.com</a> <a href="https://www.linkedin.com/in/alvarogarciapiz">@alvarogarciapiz</a>
+            <a href="mailto:alvaro@lvrpiz.com">alvaro@lvrpiz.com</a> <a href="https://www.linkedin.com/in/alvarogarciapiz">@lvrpiz</a>
             </div>
 
             <div className='description'>
