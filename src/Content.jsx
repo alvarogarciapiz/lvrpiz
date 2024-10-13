@@ -35,12 +35,12 @@ const Content = () => {
             <div className='projectsSpace'>
                 <h2>Projects</h2>
                 <div className='projects'>
-                    <a className='project latest' href='https://gawg.lvrpiz.com'>GAWG</a>
+                    {/* <a className='project latest' href='https://gawg.lvrpiz.com'>GAWG</a> */} {/* Para poner "latest" */}
+                    <a className='project' href='https://gawg.lvrpiz.com'>GAWG</a>
                     <a className='project' href='https://github.com/alvarogarciapiz/IntelliTweet'>IntelliTweet</a>
                     <a className='project' href='https://alvarogarciapiz.github.io/AWS-Certify-Hub/'>AWS Certify Hub</a>
                     <a className='project' href='https://github.com/alvarogarciapiz/MoodWise'>MoodWise</a>
                     <a className='project' href='https://commandshow.lvrpiz.com'>The Command</a>
-                    <a className='project' href='https://alvarogarciapiz.github.io/GeniusKeys/'>GeniusKeys</a>
                 </div>
             </div>
 

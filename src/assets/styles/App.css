@@ -4,4 +4,12 @@ body {
     background-color: rgb(17, 17, 19);
     color: white;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden; /* Evita el scroll horizontal en todas las vistas */
+}
+
+/* Estilos específicos para vista de ordenador */
+@media (min-width: 768px) {
+    body {
+        overflow: hidden; /* Evita el scroll en vista de ordenador */
+    }
 }
