@@ -7,6 +7,7 @@ import commandIcon from './assets/images/command.png';
 import gawgIcon from './assets/images/gawg.png';
 import intelliTweetIcon from './assets/images/intellitweet.png';
 import moodWiseIcon from './assets/images/moodwise.png';
+import gutWardenIcon from './assets/images/gutwarden.png';
 
 const Content = () => {
 
@@ -42,6 +43,9 @@ const Content = () => {
                 <div className='projects'>
                     <a className='project' href='https://gawg.lvrpiz.com'>
                         <img src={gawgIcon} alt='GAWG' className='project-icon' />
+                    </a>
+                    <a className='project' href='https://gutwarden.lvrpiz.com'>
+                        <img src={gutWardenIcon} alt='The Command' className='project-icon' />
                     </a>
                     <a className='project' href='https://github.com/alvarogarciapiz/IntelliTweet'>
                         <img src={intelliTweetIcon} alt='IntelliTweet' className='project-icon' />
