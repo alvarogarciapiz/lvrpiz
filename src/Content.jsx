@@ -2,6 +2,11 @@ import React from 'react';
 import './assets/styles/Content.css';
 import githubFoundationsBadge from './assets/images/github-foundations-badge.png';
 import githubActionsBadge from './assets/images/github-actions-badge.png';
+import awsIcon from './assets/images/aws.png';
+import commandIcon from './assets/images/command.png';
+import gawgIcon from './assets/images/gawg.png';
+import intelliTweetIcon from './assets/images/intellitweet.png';
+import moodWiseIcon from './assets/images/moodwise.png';
 
 const Content = () => {
 
@@ -35,15 +40,23 @@ const Content = () => {
             <div className='projectsSpace'>
                 <h2>Projects</h2>
                 <div className='projects'>
-                    {/* <a className='project latest' href='https://gawg.lvrpiz.com'>GAWG</a> */} {/* Para poner "latest" */}
-                    <a className='project' href='https://gawg.lvrpiz.com'>GAWG</a>
-                    <a className='project' href='https://github.com/alvarogarciapiz/IntelliTweet'>IntelliTweet</a>
-                    <a className='project' href='https://alvarogarciapiz.github.io/AWS-Certify-Hub/'>AWS Certify Hub</a>
-                    <a className='project' href='https://github.com/alvarogarciapiz/MoodWise'>MoodWise</a>
-                    <a className='project' href='https://commandshow.lvrpiz.com'>The Command</a>
+                    <a className='project' href='https://gawg.lvrpiz.com'>
+                        <img src={gawgIcon} alt='GAWG' className='project-icon' />
+                    </a>
+                    <a className='project' href='https://github.com/alvarogarciapiz/IntelliTweet'>
+                        <img src={intelliTweetIcon} alt='IntelliTweet' className='project-icon' />
+                    </a>
+                    <a className='project' href='https://alvarogarciapiz.github.io/AWS-Certify-Hub/'>
+                        <img src={awsIcon} alt='AWS Certify Hub' className='project-icon' />
+                    </a>
+                    <a className='project' href='https://github.com/alvarogarciapiz/MoodWise'>
+                        <img src={moodWiseIcon} alt='MoodWise' className='project-icon' />
+                    </a>
+                    <a className='project' href='https://commandshow.lvrpiz.com'>
+                        <img src={commandIcon} alt='The Command' className='project-icon' />
+                    </a>
                 </div>
             </div>
-
             
         </div>
     );
