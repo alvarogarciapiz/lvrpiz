@@ -1,6 +1,6 @@
 .Content {
     width: 38vw;
-    height: 70vh;
+    min-height: 70vh;
     padding-left: 31vw;
     padding-right: 31vw;
 }
