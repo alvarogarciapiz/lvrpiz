@@ -8,6 +8,7 @@ import gawgIcon from './assets/images/gawg.png';
 import intelliTweetIcon from './assets/images/intellitweet.png';
 import moodWiseIcon from './assets/images/moodwise.png';
 import gutWardenIcon from './assets/images/gutwarden.png';
+import stressIcon from './assets/images/stressTracker.png';
 
 const Content = () => {
 
@@ -41,6 +42,9 @@ const Content = () => {
             <div className='projectsSpace'>
                 <h2>Projects</h2>
                 <div className='projects'>
+                    <a className='project' href='https://stressapp.lvrpiz.com'>
+                        <img src={stressIcon} alt='Stress Tracker' className='project-icon' />
+                    </a>
                     <a className='project' href='https://gawg.lvrpiz.com'>
                         <img src={gawgIcon} alt='GAWG' className='project-icon' />
                     </a>
