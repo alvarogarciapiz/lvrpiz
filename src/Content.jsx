@@ -23,8 +23,9 @@ const Content = () => {
             </div>
 
             <div className='description'>
-            <p>Passionate about sport, techonology & innovation. Currently working as Cloud, DevOps, Automation & Systems Infrastructure at Santander. Previously software developer intern at Altia.</p>
-            <p>I initially earned a bachelor’s degree in Economics, gaining a solid foundation in economic principles and analysis. However, my passion for technology and innovation led me to switch fields and pursue a bachelor’s degree in Computer Science, where I excelled as the top student in my cohort. Currently, I am deepening my expertise by pursuing a master’s degree in Computer Science, focusing on advanced topics and research to make meaningful contributions to the ever-evolving technological landscape.</p>
+            <p>Passionate about techonology, sport & innovation. Currently working as Cloud, DevOps, Automation & Systems Infrastructure at Santander. Previously software developer intern at Altia.</p>
+            <p>I initially earned a bachelor’s degree in Economics, gaining a solid foundation in economic principles and analysis. However, my passion for technology and innovation led me to switch fields and pursue a bachelor’s degree in Computer Science, where I excelled as the top student in my cohort. Currently, I am deepening my expertise by pursuing a master’s degree in Computer Science</p>
+            <p>In my free time, I enjoy working on personal projects, such as developing apps and creating small SaaS solutions, with the goal of helping others.</p>
             </div>
 
             <div className='projectsSpace'>
@@ -48,9 +49,9 @@ const Content = () => {
                     <a className='project' href='https://gawg.lvrpiz.com'>
                         <img src={gawgIcon} alt='GAWG' className='project-icon' />
                     </a>
-                    <a className='project' href='https://gutwarden.lvrpiz.com'>
+                    {/* <a className='project' href='https://gutwarden.lvrpiz.com'>
                         <img src={gutWardenIcon} alt='The Command' className='project-icon' />
-                    </a>
+                    </a> */}
                     <a className='project' href='https://github.com/alvarogarciapiz/IntelliTweet'>
                         <img src={intelliTweetIcon} alt='IntelliTweet' className='project-icon' />
                     </a>
@@ -60,9 +61,9 @@ const Content = () => {
                     <a className='project' href='https://github.com/alvarogarciapiz/MoodWise'>
                         <img src={moodWiseIcon} alt='MoodWise' className='project-icon' />
                     </a>
-                    <a className='project' href='https://commandshow.lvrpiz.com'>
+                    {/* <a className='project' href='https://commandshow.lvrpiz.com'>
                         <img src={commandIcon} alt='The Command' className='project-icon' />
-                    </a>
+                    </a> */}
                 </div>
             </div>
             
