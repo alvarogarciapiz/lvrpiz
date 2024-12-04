@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className='Header'>
             <div className='profile'>
-                <img className='profileImage' src='https://avatars.githubusercontent.com/u/81751965?v=4' ></img>
+                <img className='profileImage' src='https://avatars.githubusercontent.com/u/81751965?v=4' alt="Álvaro García Pizarro profile picture" ></img>
                 <div className='info'>
                     <p className='nameInfo'>Álvaro García Pizarro</p>
                     <p className='descriptionInfo'>Cloud & DevOps engineer</p>
