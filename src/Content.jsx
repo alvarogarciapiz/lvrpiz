@@ -19,7 +19,7 @@ const Content = () => {
             </div>
 
             <div className='contact'>
-            <a href="mailto:alvaro@lvrpiz.com">alvaro@lvrpiz.com</a> <a href="https://www.linkedin.com/in/alvarogarciapiz">@lvrpiz</a>
+            <a href="mailto:alvaro@lvrpiz.com">alvaro@lvrpiz.com</a> <a href="https://www.bulletin.lvrpiz.com">Bulletin</a>
             </div>
 
             <div className='description'>
