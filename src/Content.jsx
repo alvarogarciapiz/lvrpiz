@@ -25,7 +25,7 @@ const Content = () => {
             <div className='description'>
             <p>Passionate about techonology, sport & innovation. Currently working as Cloud, DevOps, Automation & Systems Infrastructure at Santander. Previously software developer intern at Altia.</p>
             <p>I initially earned a bachelor’s degree in Economics, gaining a solid foundation in economic principles and analysis. However, my passion for technology and innovation led me to switch fields and pursue a bachelor’s degree in Computer Science, where I excelled as the top student in my cohort. Currently, I am deepening my expertise by pursuing a master’s degree in Computer Science</p>
-            <p>In my free time, I enjoy working on personal projects, such as developing apps and creating small SaaS solutions, with the goal of helping others.</p>
+            <p>Most of my free time goes into working on apps and small SaaS projects that I enjoy building. I’ve also set up a little personal mailing list to let people know about what I’m working on.</p>
             </div>
 
             <div className='projectsSpace'>
