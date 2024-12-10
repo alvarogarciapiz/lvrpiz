@@ -9,6 +9,7 @@ import intelliTweetIcon from './assets/images/intellitweet.png';
 import moodWiseIcon from './assets/images/moodwise.png';
 import gutWardenIcon from './assets/images/gutwarden.png';
 import stressIcon from './assets/images/stressTracker.png';
+import TimeDaylight from './assets/images/timeDaylight.png';
 
 const Content = () => {
 
@@ -48,6 +49,9 @@ const Content = () => {
                     </a>
                     <a className='project' href='https://gawg.lvrpiz.com'>
                         <img src={gawgIcon} alt='GAWG' className='project-icon' />
+                    </a>
+                    <a className='project' href='https://timeindaylight.lvrpiz.com'>
+                        <img src={TimeDaylight} alt='Time in Daylight app' className='project-icon' />
                     </a>
                     {/* <a className='project' href='https://gutwarden.lvrpiz.com'>
                         <img src={gutWardenIcon} alt='The Command' className='project-icon' />
