@@ -9,7 +9,7 @@ import intelliTweetIcon from './assets/images/intellitweet.png';
 import moodWiseIcon from './assets/images/moodwise.png';
 import gutWardenIcon from './assets/images/gutwarden.png';
 import stressIcon from './assets/images/stressTracker.png';
-import TimeDaylight from './assets/images/timeDaylight.png';
+import TimeDaylight from './assets/images/TimeDaylight.png';
 
 const Content = () => {
 
