@@ -7,9 +7,9 @@ import commandIcon from './assets/images/command.png';
 import gawgIcon from './assets/images/gawg.png';
 import intelliTweetIcon from './assets/images/intellitweet.png';
 import moodWiseIcon from './assets/images/moodwise.png';
-import gutWardenIcon from './assets/images/gutwarden.png';
 import stressIcon from './assets/images/stressTracker.png';
 import TimeDaylight from './assets/images/TimeDaylight.png';
+import lapisIcon from './assets/images/lapis.png';
 
 const Content = () => {
 
@@ -44,6 +44,9 @@ const Content = () => {
             <div className='projectsSpace'>
                 <h2>Projects</h2>
                 <div className='projects'>
+                    <a className='project' href='https://lapis.lvrpiz.com'>
+                        <img src={lapisIcon} alt='Lapis AI Offline Private Chat' className='project-icon' />
+                    </a>
                     <a className='project' href='https://stressapp.lvrpiz.com'>
                         <img src={stressIcon} alt='Stress Tracker' className='project-icon' />
                     </a>
@@ -53,9 +56,6 @@ const Content = () => {
                     <a className='project' href='https://timeindaylight.lvrpiz.com'>
                         <img src={TimeDaylight} alt='Time in Daylight app' className='project-icon' />
                     </a>
-                    {/* <a className='project' href='https://gutwarden.lvrpiz.com'>
-                        <img src={gutWardenIcon} alt='The Command' className='project-icon' />
-                    </a> */}
                     <a className='project' href='https://github.com/alvarogarciapiz/IntelliTweet'>
                         <img src={intelliTweetIcon} alt='IntelliTweet' className='project-icon' />
                     </a>
