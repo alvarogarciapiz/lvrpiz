@@ -3,12 +3,11 @@ import './assets/styles/Content.css';
 import githubFoundationsBadge from './assets/images/github-foundations-badge.webp';
 import githubActionsBadge from './assets/images/github-actions-badge.webp';
 import awsIcon from './assets/images/aws.webp';
-import commandIcon from './assets/images/command.webp';
 import gawgIcon from './assets/images/gawg.webp';
 import intelliTweetIcon from './assets/images/intellitweet.webp';
 import moodWiseIcon from './assets/images/moodwise.webp';
 import stressIcon from './assets/images/stressTracker.webp';
-import TimeDaylight from './assets/images/TimeDaylight.webp';
+import TimeDaylight from './assets/images/timeDaylight.webp';
 import lapisIcon from './assets/images/lapis.webp';
 
 const Content = () => {
@@ -65,9 +64,6 @@ const Content = () => {
                     <a className='project' href='https://github.com/alvarogarciapiz/MoodWise'>
                         <img src={moodWiseIcon} alt='MoodWise' className='project-icon' />
                     </a>
-                    {/* <a className='project' href='https://commandshow.lvrpiz.com'>
-                        <img src={commandIcon} alt='The Command' className='project-icon' />
-                    </a> */}
                 </div>
             </div>
             
