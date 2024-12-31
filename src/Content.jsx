@@ -6,12 +6,11 @@ import awsIcon from './assets/images/aws.webp';
 import gawgIcon from './assets/images/gawg.webp';
 import intelliTweetIcon from './assets/images/intellitweet.webp';
 import moodWiseIcon from './assets/images/moodwise.webp';
-import stressIcon from './assets/images/stressTracker.webp';
-import TimeDaylight from './assets/images/timeDaylight.webp';
+import stressIcon from './assets/images/StressTracker.webp';
+import TimeDaylight from './assets/images/TimeDaylight.webp';
 import lapisIcon from './assets/images/lapis.webp';
 
 const Content = () => {
-
     return (
         <div className='Content'>
             <div className='title'>
