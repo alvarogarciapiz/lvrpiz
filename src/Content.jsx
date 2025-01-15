@@ -27,7 +27,7 @@ const Content = () => {
             <p>Most of my free time goes into working on apps and small SaaS projects that I enjoy building. I’ve also set up a little personal mailing list to let people know about what I’m working on.</p>
             </div>
 
-            <div className='projectsSpace'>
+            {/* <div className='projectsSpace'>
                 <h2>Certifications</h2>
                 <div className='projects'>
                 <a href="https://www.credly.com/badges/f180210d-c933-4ad0-b807-5b1b96bb250e/linked_in_profile" target="_blank" rel="noopener noreferrer">
@@ -37,7 +37,7 @@ const Content = () => {
                     <img src={githubActionsBadge} alt='GitHub Actions Badge' className='badge' />
                 </a>
                 </div>
-            </div>
+            </div> */}
 
             <div className='projectsSpace'>
                 <h2>Projects</h2>
