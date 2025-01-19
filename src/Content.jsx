@@ -14,7 +14,7 @@ const Content = () => {
     return (
         <div className='Content'>
             <div className='title'>
-            <h1>Álvaro García Pizarro, <span className='color2'>Automation</span>, <span className='color1'>Cloud</span> & <span className='color3'>DevOps</span> engineer</h1>
+            <h1>Álvaro García Pizarro - Ingeniero <span className='color2'>Cloud</span>, <span className='color1'>DevOps</span> y de <span className='color3'>Automatización</span></h1>
             </div>
 
             <div className='contact'>
@@ -22,9 +22,9 @@ const Content = () => {
             </div>
 
             <div className='description'>
-            <p>Passionate about techonology, sport & innovation. Currently working as Cloud, DevOps, Automation & Systems Infrastructure at Santander. Previously software developer intern at Altia.</p>
-            <p>I initially earned a bachelor’s degree in Economics, gaining a solid foundation in economic principles and analysis. However, my passion for technology and innovation led me to switch fields and pursue a bachelor’s degree in Computer Science, where I excelled as the top student in my cohort. Currently, I am deepening my expertise by pursuing a master’s degree in Computer Science</p>
-            <p>Most of my free time goes into working on apps and small SaaS projects that I enjoy building. I’ve also set up a little personal mailing list to let people know about what I’m working on.</p>
+            <p>Apasionado de la tecnología, el deporte y la innovación. Actualmente trabajando como ingeniero Cloud, DevOps y de Automatización en Santander. Anteriormente desarrollador de software en Altia.</p>
+            <p>Comencé mi trayectoria académica graduándome en Comercio por la Universidad de Valladolid y en Business Administration por la South Champagne Business School, donde construí una base sólida en análisis y principios económicos. Sin embargo, mi interés por la tecnología me llevó a reorientar mi carrera y estudiar Ingeniería Informática acabando como el mejor estudiante de mi promoción. Actualmente, estoy ampliando mi especialización cursando un máster en Ingeniería Informática.</p>
+            <p>En mi tiempo libre, desarrollo aplicaciones innovadoras centradas en la salud y la inteligencia artificial, incluyendo soluciones para el Apple Watch y agentes de IA para distintas plataformas. Puedes descubrir más sobre mis proyectos en mi web. Mi mail está siempre abierto para nuevas oportunidades y colaboraciones.</p>
             </div>
 
             {/* <div className='projectsSpace'>
@@ -40,7 +40,7 @@ const Content = () => {
             </div> */}
 
             <div className='projectsSpace'>
-                <h2>Projects</h2>
+                <h2>Proyectos</h2>
                 <div className='projects'>
                     <a className='project' href='https://lapis.lvrpiz.com'>
                         <img src={lapisIcon} alt='Lapis AI Offline Private Chat' className='project-icon' />

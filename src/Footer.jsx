@@ -10,7 +10,7 @@ const Footer = () => {
                         <div className="circle"></div>
                     </div>
                 </div>
-                <p className='location'>Currently in Valladolid, Spain</p>
+                <p className='location'>Actualmente en Valladolid, España</p>
             </div>
         </footer>
     );
