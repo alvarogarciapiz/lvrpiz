@@ -18,7 +18,7 @@ const Content = () => {
             </div>
 
             <div className='contact'>
-            <a href="mailto:alvaro@lvrpiz.com">alvaro@lvrpiz.com</a> <a href="https://www.bulletin.lvrpiz.com">Bulletin</a>
+            <a href="mailto:alvaro@lvrpiz.com">alvaro@lvrpiz.com</a> <a href="https://www.bulletin.lvrpiz.com">Bulletin</a> <a href="CV.pdf">CV</a>
             </div>
 
             <div className='description'>

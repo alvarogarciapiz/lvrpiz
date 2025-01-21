@@ -33,12 +33,11 @@
     text-decoration: none;
     color: white;
     font-family: 'Berkeley Mono', monospace;
-    transition: padding 0.3s ease, border-radius 0.3s ease;
+    transition: padding 1s ease, border-radius 0.3s ease;
 }
 
 .contact a:hover {
-    padding: 10px;
-    border-radius: 10px;
+    padding: 6px;
 }
 
 .projectsSpace {
