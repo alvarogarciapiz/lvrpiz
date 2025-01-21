@@ -1,0 +1,22 @@
+{
+  "builds": [
+    {
+      "src": "src/**/*",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "public/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/CV.pdf",
+      "dest": "/public/CV.pdf"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
